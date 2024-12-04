@@ -3,10 +3,16 @@
 * {
   margin: 0px;
 }
+hr {
+  border-color: #aaa;
+  box-sizing: border-box;
+  width: 80%;
+  margin: 50px;
+}
 /* estilização do navegador*/
 header {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: gray;
+  background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
   color: white;
   font-size: 20px;
   font-style: italic;
@@ -39,6 +45,14 @@ section {
   align-items: center;
   flex-direction: column;
   margin: 0px 0px 0px 0px;
+  
+}
+.Apresentação-subtitulo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px 0px 0px 0px;
+  background: linear-gradient(90.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
 }
 
 .Titulo {
@@ -49,12 +63,14 @@ section {
   font-family: Arial, Helvetica, sans-serif;
   font-style: italic;
   color: gold;
+ 
+  
 }
 
 .Titulo h1 {
   margin: 0px 0px 20px 0px;
 }
-h3{
+h3 {
   height: -100px;
 }
 .segundo-container {
@@ -81,9 +97,9 @@ h3{
   position: relative;
   top: 0;
   padding: 4px;
-  background-color: gray;
-    top: -2px;
-    box-shadow: 0 2px 2px #666;
+  background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
+  top: -2px;
+  box-shadow: 0 2px 2px #666;
   position: relative;
   padding: 4px;
   background-color: gray;
@@ -113,9 +129,9 @@ h3{
   position: relative;
   top: 0;
   padding: 4px;
-  background-color: gray;
-    top: -2px;
-    box-shadow: 0 2px 2px #666;
+  background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
+  top: -2px;
+  box-shadow: 0 2px 2px #666;
   position: relative;
   padding: 4px;
   background-color: gray;
@@ -145,9 +161,9 @@ h3{
   position: relative;
   top: 0;
   padding: 4px;
-  background-color: gray;
-    top: -2px;
-    box-shadow: 0 2px 2px #666;
+  background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
+  top: -2px;
+  box-shadow: 0 2px 2px #666;
   position: relative;
   padding: 4px;
   background-color: gray;
@@ -168,7 +184,7 @@ h3{
   gap: 15px;
 }
 /*Animação e sombremanto no ícone da Calia */
-#Calia-records:hover{
+#Calia-records:hover {
   color: gold;
   transform: translate(1.5s);
   transition: 2s;
@@ -177,9 +193,9 @@ h3{
   position: relative;
   top: 0;
   padding: 4px;
-  background-color: gray;
-    top: -2px;
-    box-shadow: 0 2px 2px #666;
+  background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
+  top: -2px;
+  box-shadow: 0 2px 2px #666;
   position: relative;
   padding: 4px;
   background-color: gray;
@@ -206,8 +222,8 @@ h3{
   top: 0;
   padding: 4px;
   background-color: gray;
-    top: -2px;
-    box-shadow: 0 2px 2px #666;
+  top: -2px;
+  box-shadow: 0 2px 2px #666;
   position: relative;
   padding: 4px;
   background-color: gray;
@@ -217,85 +233,115 @@ h3{
   position: relative;
   top: 0;
   padding: 4px;
-  background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
-                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+  background: radial-gradient(
+      ellipse farthest-corner at right bottom,
+      #fedb37 0%,
+      #fdb931 8%,
+      #9f7928 30%,
+      #8a6e2f 40%,
+      transparent 80%
+    ),
+    radial-gradient(
+      ellipse farthest-corner at left top,
+      #ffffff 0%,
+      #ffffac 8%,
+      #d1b464 25%,
+      #5d4a1f 62.5%,
+      #5d4a1f 100%
+    );
   transition: all 0.2s ease-in-out;
   top: -4px;
   box-shadow: 0 4px 3px #999;
 }
 /*Alinhamento do fórmulario*/
-.subtitulo{
-display: flex;
-justify-content: center;
-
+.subtitulo {
+  display: flex;
+  justify-content: center;
 }
-form{
-  
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    max-width: 28rem;
-    background: transparent;
-    padding: 2.5rem 3.5rem 20px 3.5rem;
-    border-radius: 0.5rem;
-   box-shadow: 0 0 1.8rem rgba(0, 0, 0, 0.15);
-   font-family: 'Roboto', sans-serif;
-  }
-  label{
-    width: 100%;
-    color: #777;
-    align-self: flex-start;
-    transition: 0.15 linear;
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 28rem;
+  background: transparent;
+  padding: 2.5rem 3.5rem 20px 3.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 1.8rem rgba(0, 0, 0, 0.15);
+  font-family: "Roboto", sans-serif;
 }
-label:focus-within{
-    color: gold;
+label {
+  width: 100%;
+  color: #777;
+  align-self: flex-start;
+  transition: 0.15 linear;
 }
-input{
- font-size: 1.1875rem;
-color: black;
-padding: 1rem 0 0.5rem 0;
-width: 100%;
-border: none;
-border-color: #a0a0a0;
-border-bottom-width: 1px;
-border-bottom-style: dotted;
-margin-bottom: 15px;
-transition: 0.15s linear;
-
-background: transparent;
+label:focus-within {
+  color: gold;
 }
-input:focus{
- outline: none;
- border-color: gold;
-
+input {
+  font-size: 1.1875rem;
+  color: gray;
+  padding: 1rem 0 0.5rem 0;
+  width: 100%;
+  border: none;
+  border-color: #a0a0a0;
+  border-bottom-width: 1px;
+  border-bottom-style: dotted;
+  margin-bottom: 15px;
+  transition: 0.15s linear;
+  background: transparent;
+  border-radius: 10px;
 }
-button{
-font-size: 0.8125rem;
-line-height: 2rem;
-font-weight: 700;
-text-transform: uppercase;
-width: 100%;
-padding: 1rem 2rem;
-cursor: pointer;
-background: transparent;
-color: gold;
-border: 1px solid currentColor;
-border-radius: 4px;
-transition: 0.25s;
+input:hover {
+  border: gold;
+}
+input:focus {
+  outline: none;
+  border-color: gold;
+}
+button {
+  font-size: 0.8125rem;
+  line-height: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  width: 100%;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  background: transparent;
+  color: gold;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  transition: 0.25s;
 }
 button:hover,
-button:focus{
-outline: none;
-background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
-                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
-color:white;
- }
-fieldset{
+button:focus {
+  outline: none;
+  background: radial-gradient(
+      ellipse farthest-corner at right bottom,
+      #fedb37 0%,
+      #fdb931 8%,
+      #9f7928 30%,
+      #8a6e2f 40%,
+      transparent 80%
+    ),
+    radial-gradient(
+      ellipse farthest-corner at left top,
+      #ffffff 0%,
+      #ffffac 8%,
+      #d1b464 25%,
+      #5d4a1f 62.5%,
+      #5d4a1f 100%
+    );
   color: white;
 }
-a{
+fieldset {
   color: white;
-  text-decoration:none;
 }
-
+a {
+  color: white;
+  text-decoration: none;
+}
+.video{
+  background-image: radial-gradient(circle at 50% -3.03%, #bbdde1 0, #bad5d6 12.5%, #b9ccca 25%, #b8c1c0 37.5%, #b6b6b6 50%, #b3abae 62.5%, #afa1a8 75%, #aa98a3 87.5%, #a591a0 100%);
+}
