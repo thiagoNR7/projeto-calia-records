@@ -1,54 +1,301 @@
-*{
-    margin: 0px;
+@import url("https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-rounded/css/uicons-solid-rounded.css");
+
+* {
+  margin: 0px;
 }
 /* estilização do navegador*/
-header{
-    font-family: Arial, Helvetica, sans-serif;
- background-color: gray;
- color: white;
- font-size: 20px;
- font-style: italic;
+header {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: gray;
+  color: white;
+  font-size: 20px;
+  font-style: italic;
 }
 
-.container-principal{
-     display: flex;
-     flex-direction: row;
-     justify-content: space-around;
-     gap: 30px;
-     align-items: center;
-     padding: 10px;
+.container-principal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 30px;
+  align-items: center;
+  padding: 30px;
 }
-.container-principal h3:hover{
-color: gold;
-border-bottom: 2px solid white; 
-transform:translateY(1.5s);
-transition: 2s;
+.container-principal h3:hover {
+  color: gold;
+  transform: translateY(1.5s);
+  transition: 2s;
+  cursor: pointer;
 }
 /*estlização da seção principal*/
 
-section{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: black;
-    font-size: 20px;
-    color: white;
+section {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  font-size: 20px;
+  color: white;
 }
-.Apresentação{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin:0px 0px 60px 0px;
+.Apresentação {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px 0px 0px 0px;
 }
 
- .Titulo{
+.Titulo {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0px 20px 0px;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  color: gold;
+}
+
+.Titulo h1 {
+  margin: 0px 0px 20px 0px;
+}
+h3{
+  height: -100px;
+}
+.segundo-container {
+  background: rgb(131, 58, 180);
+  background: radial-gradient(
+    circle,
+    rgba(131, 58, 180, 1) 52%,
+    rgba(252, 176, 69, 1) 100%,
+    rgba(253, 111, 29, 1) 100%
+  );
+}
+/* Centralização do ícone Home (Casa)*/
+#Home {
+  display: flex;
+  gap: 15px;
+}
+/* Animação no ícone home (casa)*/
+#Home:hover {
+  color: gold;
+  transform: translate(1.5s);
+  transition: 2s;
+  cursor: pointer;
+  border-bottom: 2px solid gold;
+  position: relative;
+  top: 0;
+  padding: 4px;
+  background-color: gray;
+    top: -2px;
+    box-shadow: 0 2px 2px #666;
+  position: relative;
+  padding: 4px;
+  background-color: gray;
+  top: -2px;
+  border-bottom: 2px solid #999;
+  padding-bottom: 2px;
+  position: relative;
+  top: 0;
+  padding: 4px;
+  background-color: gray;
+  transition: all 0.2s ease-in-out;
+  top: -4px;
+  box-shadow: 0 4px 3px #999;
+}
+/*Centralização do ícone de contato*/
+#phone {
+  display: flex;
+  gap: 15px;
+}
+/*Animação no ícone de contato*/
+#phone:hover {
+  color: gold;
+  transform: translate(1.5s);
+  transition: 2s;
+  cursor: pointer;
+  border-bottom: 2px solid gold;
+  position: relative;
+  top: 0;
+  padding: 4px;
+  background-color: gray;
+    top: -2px;
+    box-shadow: 0 2px 2px #666;
+  position: relative;
+  padding: 4px;
+  background-color: gray;
+  top: -2px;
+  border-bottom: 2px solid #999;
+  padding-bottom: 2px;
+  position: relative;
+  top: 0;
+  padding: 4px;
+  background-color: gray;
+  transition: all 0.2s ease-in-out;
+  top: -4px;
+  box-shadow: 0 4px 3px #999;
+}
+/* Centraliazação do ícone*/
+#exclamação {
+  display: flex;
+  gap: 15px;
+}
+/* Animação no ícone do saiba mais*/
+#exclamação:hover {
+  color: gold;
+  transform: translate(1.5s);
+  transition: 2s;
+  cursor: pointer;
+  border-bottom: 2px solid gold;
+  position: relative;
+  top: 0;
+  padding: 4px;
+  background-color: gray;
+    top: -2px;
+    box-shadow: 0 2px 2px #666;
+  position: relative;
+  padding: 4px;
+  background-color: gray;
+  top: -2px;
+  border-bottom: 2px solid #999;
+  padding-bottom: 2px;
+  position: relative;
+  top: 0;
+  padding: 4px;
+  background-color: gray;
+  transition: all 0.2s ease-in-out;
+  top: -4px;
+  box-shadow: 0 4px 3px #999;
+}
+/*Centralização de íncone da Calia*/
+#Calia-records {
+  display: flex;
+  gap: 15px;
+}
+/*Animação e sombremanto no ícone da Calia */
+#Calia-records:hover{
+  color: gold;
+  transform: translate(1.5s);
+  transition: 2s;
+  cursor: pointer;
+  border-bottom: 2px solid gold;
+  position: relative;
+  top: 0;
+  padding: 4px;
+  background-color: gray;
+    top: -2px;
+    box-shadow: 0 2px 2px #666;
+  position: relative;
+  padding: 4px;
+  background-color: gray;
+  top: -2px;
+  border-bottom: 2px solid #999;
+  padding-bottom: 2px;
+  position: relative;
+  top: 0;
+  padding: 4px;
+  background-color: gray;
+  transition: all 0.2s ease-in-out;
+  top: -4px;
+  box-shadow: 0 4px 3px #999;
+}
+/* Animação na imagem da Calia*/
+#Calia:hover {
+  border-radius: 10px;
+  color: gold;
+  transform: translate(1.5s);
+  transition: 2s;
+  cursor: pointer;
+  border-bottom: 2px solid gold;
+  position: relative;
+  top: 0;
+  padding: 4px;
+  background-color: gray;
+    top: -2px;
+    box-shadow: 0 2px 2px #666;
+  position: relative;
+  padding: 4px;
+  background-color: gray;
+  top: -2px;
+  border-bottom: 2px solid #999;
+  padding-bottom: 2px;
+  position: relative;
+  top: 0;
+  padding: 4px;
+  background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+  transition: all 0.2s ease-in-out;
+  top: -4px;
+  box-shadow: 0 4px 3px #999;
+}
+/*Alinhamento do fórmulario*/
+.subtitulo{
+display: flex;
+justify-content: center;
+
+}
+form{
+  
     display: flex;
     flex-direction: column;
-    margin:20px 0px 20px 0px;
     align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
-    color:gold;
- }
+    width: 100%;
+    max-width: 28rem;
+    background: transparent;
+    padding: 2.5rem 3.5rem 20px 3.5rem;
+    border-radius: 0.5rem;
+   box-shadow: 0 0 1.8rem rgba(0, 0, 0, 0.15);
+   font-family: 'Roboto', sans-serif;
+  }
+  label{
+    width: 100%;
+    color: #777;
+    align-self: flex-start;
+    transition: 0.15 linear;
+}
+label:focus-within{
+    color: gold;
+}
+input{
+ font-size: 1.1875rem;
+color: black;
+padding: 1rem 0 0.5rem 0;
+width: 100%;
+border: none;
+border-color: #a0a0a0;
+border-bottom-width: 1px;
+border-bottom-style: dotted;
+margin-bottom: 15px;
+transition: 0.15s linear;
 
- .Titulo h1{
-    margin:0px 0px 20px 0px;
+background: transparent;
+}
+input:focus{
+ outline: none;
+ border-color: gold;
+
+}
+button{
+font-size: 0.8125rem;
+line-height: 2rem;
+font-weight: 700;
+text-transform: uppercase;
+width: 100%;
+padding: 1rem 2rem;
+cursor: pointer;
+background: transparent;
+color: gold;
+border: 1px solid currentColor;
+border-radius: 4px;
+transition: 0.25s;
+}
+button:hover,
+button:focus{
+outline: none;
+background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+color:white;
  }
+fieldset{
+  color: white;
+}
+a{
+  color: white;
+  text-decoration:none;
+}
+
