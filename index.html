@@ -20,10 +20,10 @@
     <header>
       <nav>
         <div class="container-principal">
-          <a href="/index.html"><i class="fi fi-bs-home" id="Home"><h3>Home</h3></i> </a>
-          <i class="fi fi-rr-megaphone" id="Calia-records"><h3>Calia Records</h3></i>
+          <a href="#"><i class="fi fi-bs-home" id="Home"><h3>Home</h3></i> </a>
+        <a href="#video"><i class="fi fi-rr-megaphone" id="Calia-records"><h3>Calia Records</h3></i></a> 
           <a href="tel:+5511996627759"><i class="fi fi-rr-circle-phone" id="phone"> <h3>Contato</h3></i></a>
-          <i class="fi fi-rr-exclamation" id="exclamação"><h3>Saiba mais</h3></i> 
+        <a href="/index.html"><i class="fi fi-rr-exclamation" id="exclamação"><h3>Saiba mais</h3></i> </a>  
         </div>
       </nav>
     </header>
@@ -34,20 +34,20 @@
           <h1>Bem vindo!</h1>
           <img src="imgs/Logo_Calia Record_Gold.png" height="450px" width="400px" alt="Calia Records" id="Calia">
         </div>
+        <p class="paragrafo-titulo">A produção musical mudou ao longo do século XX, com a chegada da gravação sonora, do sintetizador eletrônico, da música concreta e do computador. No início da carreira, Gil costumava deixar que os produtores conduzissem o processo de transformar suas canções em fonogramas. João Mello produziu o primeiro álbum de Gil, Louvação (1967). Manoel Barenbein produziu os álbuns de 1968 e 1969, além do disco-manifesto Tropicália ou Panis et Circencis
+        </p>
       <hr>
       </div>
        <div class="Apresentação-subtitulo">
-        <div class="Titulo">
-          <h3>Lançamentos</h3>
+        <div id="video" class="Titulo">
+          <h3>Apresentação</h3>
         </div>
       
-          <video width="720" height="400" controls autoplay loop muted>
+          <video  width="720" height="400" controls autoplay loop muted>
             <source src="video.mp4" type="video/mp4" />
             <source src="video.ogg" type="video/ogg" />
             
           </video>
-      
-       
         <br>
         <br>
         <br>
@@ -56,8 +56,9 @@
       </div>
           
       <section >
-        
+        <h1>Faça seu cadastro!</h1>
         <div class="subtitulo">
+         
           <form action="https://api.sheetmonkey.io/form/tJ2XK6xa3as1j7beWfcFJS" method="post" enctype="multipart/form-data">
             
             <label for="email">E-mail:<input type="email" id="email" name="email" required></label>
@@ -74,6 +75,13 @@
 
             <label for="cpf">CPF: <input type="text" id="cpf" name="cpf" required></label>
             <br>
+            <span class="checkbox">
+              <label for="trap">Trap<input class="checkbox" type="checkbox" name="genero" id="trap" value="trap"></label>
+            <br>
+            <label for="trap">Funk<input class="checkbox" type="checkbox" name="genero" id="funk" value="funk"></label>
+            <label for="trap">Ambos<input class="checkbox" type="checkbox" name="genero" id="Ambos" value="Ambos"></label>
+            </span>
+            
            
             <button type="submit">Enviar Cadastro</button>
         </form>

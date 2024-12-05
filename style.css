@@ -12,7 +12,11 @@ hr {
 /* estilização do navegador*/
 header {
   font-family: Arial, Helvetica, sans-serif;
-  background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
+  background: linear-gradient(
+    109.6deg,
+    rgba(0, 0, 0, 0.93) 11.2%,
+    rgb(63, 61, 61) 78.9%
+  );
   color: white;
   font-size: 20px;
   font-style: italic;
@@ -45,14 +49,17 @@ section {
   align-items: center;
   flex-direction: column;
   margin: 0px 0px 0px 0px;
-  
 }
 .Apresentação-subtitulo {
   display: flex;
   align-items: center;
   flex-direction: column;
   margin: 0px 0px 0px 0px;
-  background: linear-gradient(90.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
+  background: linear-gradient(
+    90.6deg,
+    rgba(0, 0, 0, 0.93) 11.2%,
+    rgb(63, 61, 61) 78.9%
+  );
 }
 
 .Titulo {
@@ -63,8 +70,6 @@ section {
   font-family: Arial, Helvetica, sans-serif;
   font-style: italic;
   color: gold;
- 
-  
 }
 
 .Titulo h1 {
@@ -97,8 +102,13 @@ h3 {
   position: relative;
   top: 0;
   padding: 4px;
-  background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
+  background: linear-gradient(
+    109.6deg,
+    rgba(0, 0, 0, 0.93) 11.2%,
+    rgb(63, 61, 61) 78.9%
+  );
   top: -2px;
+  border-radius: 7px;
   box-shadow: 0 2px 2px #666;
   position: relative;
   padding: 4px;
@@ -129,7 +139,12 @@ h3 {
   position: relative;
   top: 0;
   padding: 4px;
-  background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
+  background: linear-gradient(
+    109.6deg,
+    rgba(0, 0, 0, 0.93) 11.2%,
+    rgb(63, 61, 61) 78.9%
+  );
+  border-radius: 7px;
   top: -2px;
   box-shadow: 0 2px 2px #666;
   position: relative;
@@ -161,7 +176,11 @@ h3 {
   position: relative;
   top: 0;
   padding: 4px;
-  background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
+  background: linear-gradient(
+    109.6deg,
+    rgba(0, 0, 0, 0.93) 11.2%,
+    rgb(63, 61, 61) 78.9%
+  );
   top: -2px;
   box-shadow: 0 2px 2px #666;
   position: relative;
@@ -177,6 +196,7 @@ h3 {
   transition: all 0.2s ease-in-out;
   top: -4px;
   box-shadow: 0 4px 3px #999;
+  border-radius: 7px;
 }
 /*Centralização de íncone da Calia*/
 #Calia-records {
@@ -192,8 +212,13 @@ h3 {
   border-bottom: 2px solid gold;
   position: relative;
   top: 0;
+  border-radius: 7px;
   padding: 4px;
-  background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
+  background: linear-gradient(
+    109.6deg,
+    rgba(0, 0, 0, 0.93) 11.2%,
+    rgb(63, 61, 61) 78.9%
+  );
   top: -2px;
   box-shadow: 0 2px 2px #666;
   position: relative;
@@ -259,6 +284,7 @@ h3 {
   justify-content: center;
 }
 form {
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -267,7 +293,7 @@ form {
   background: transparent;
   padding: 2.5rem 3.5rem 20px 3.5rem;
   border-radius: 0.5rem;
-  box-shadow: 0 0 1.8rem rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 1.8rem white;
   font-family: "Roboto", sans-serif;
 }
 label {
@@ -342,6 +368,38 @@ a {
   color: white;
   text-decoration: none;
 }
-.video{
-  background-image: radial-gradient(circle at 50% -3.03%, #bbdde1 0, #bad5d6 12.5%, #b9ccca 25%, #b8c1c0 37.5%, #b6b6b6 50%, #b3abae 62.5%, #afa1a8 75%, #aa98a3 87.5%, #a591a0 100%);
+.video {
+  background-image: radial-gradient(
+    circle at 50% -3.03%,
+    #bbdde1 0,
+    #bad5d6 12.5%,
+    #b9ccca 25%,
+    #b8c1c0 37.5%,
+    #b6b6b6 50%,
+    #b3abae 62.5%,
+    #afa1a8 75%,
+    #aa98a3 87.5%,
+    #a591a0 100%
+  );
+}
+.paragrafo-titulo {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  padding: 7px;
+}
+h1 {
+  text-align: center;
+  color: gold;
+  margin: 20px 0px 5px 0px;
+}
+.checkbox {
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+.checkbox label {
+  display: flex;
+  gap: 7px;
+  align-items: baseline;
+  padding: 10px;
 }
